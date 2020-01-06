@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <title> BMW kontakt</title>
+</head>
+<body>
+    <header>
+        <div class="hero-image" style="height: 100px;"></div>
+        <nav>
+            <ul>
+                <li><a href="zadatak7.html">Početna stranica</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="#">O nama</a></li>
+                <li><a href="#">Galerija</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>BMW Kontakt</h1>
+        <div id="kontakt">
+            <iframe src="https://maps.google.com/maps?q=Veleu%C4%8Dili%C5%A1te%20Velika%20Gorica&t=k&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <form action="https://github.com/fberend" id="contact_form" name="contact_form" method="POST">
+                <label for="ime">Ime </label>
+                <input type="text" id="ime" name="ime" placeholder="Tvoje ime" required>
+
+                <label for="prezime">Prezime</label>
+                <input type="text" id="prezime" name="prezime" placeholder="Tvoje prezime" required>
+
+                <label for="email">Tvoj E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Tvoj E-mail" required>
+
+                <label for="drzava">Država</label>
+                <select id="drzava" name="drzava">
+                    <option value=>Please select</option>
+                    <option value="BE">Belgija</option>
+                    <option value="HR" selected>Hrvatska</option>
+                    <option value="ITA">Italija</option>
+                    <option value="SLO">Slovenija</option>
+                </select>
+
+                <label for="poruka">Poruka</label>
+                <textarea id="poruka" name="poruka" placeholder="Napiši nešto" style="height:200px" font-family="Arial"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>BMW &copy; 2019 Filip Berend <a href="https://github.com/fberend"><img src="img/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+    </footer>
+</body>
+</html>
